@@ -1,13 +1,13 @@
-a = 0xAC71
-b = 0o1010110001110001
-c = 0o126161
-d = 44145
-print(a, b, c, d)
-print(hex(d), bin(d), oct(b), d)
-print(chr(66))
-print(ord('8'))
-print(chr(98))
-print(ord('8'))
-print(ord('8'))
-print(chr(0xAE40))
-
+pi = 3.141592
+pi_e3 = 0.003141592e3
+print(pi, pi_e3)
+print(bool(-19))
+print(bool(1))
+print(bool(1.0e2))
+print(bool(0))
+print(bool(0.0))
+print(int('F', 16)) #feat. jhkim
+print(int('99'))
+#print(int('99.71'))
+print(float('99.71'))
+print(True + 2.1)
