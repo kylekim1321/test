@@ -3,8 +3,8 @@ y = x
 print(x,y)
 x[0] = -11
 print(x,y)
-#dictionary : mutable
-human = {'eye' : [1.0, 0.9], 'blood_type' : 'ab'}
+
+human = {'eye': [1.0, 0.9], 'blood_type': 'ab'}
 print(human['eye'])
 human['eye'][0] = 0.7
 print
