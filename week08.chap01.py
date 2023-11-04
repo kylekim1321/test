@@ -1,10 +1,7 @@
+import copy
 a = [-11, [3, 0], 9]
-b = a.copy()
-c = list(a)
-d = a[:]
-e = a
+b = copy.deepcopy(a) # deep copy
 
-print(a, b, c, d, e)
+print(a, b)
 a[1][0] = 7
-# a[1] = 99
-print(a, b, c, d, e)
+print(a, b) # 깊은 복사가 이루어진 b 리스트 b는 바뀌지 않는다
